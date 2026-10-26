@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Never audit or commit credentials / agent scratch
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Local MCP configs may contain internal endpoints - keep them out
+.mcp.json
+mcp.json
+claude_desktop_config.json

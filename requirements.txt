@@ -1,0 +1,2 @@
+# Runtime: zero dependencies - Python 3.9+ stdlib only.
+# This file exists so `pip install .` works in restricted workflows.
